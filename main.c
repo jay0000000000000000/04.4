@@ -1,18 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+
 int main(int argc, char *argv[])
 {
-  int a, b;
+  int x, y, z, m;
+  int a, b, c;
   
-  printf("input two integars :");
-  scanf("%i %i", &a, &b);
+  x = 2;
+  z = 1;
+  a = 3;
+  b = 4;
+  c = 5;
   
-  printf("%i + %i = %i \n", a,b, a+b);
-  printf("%i - %i = %i \n", a,b, a-b);
-  printf("%i * %i = %i \n", a,b, a*b);
-  printf("%i / %i = %i \n", a,b, a/b);
-  printf("%i %% %i = %i \n", a,b, a%b);
+  // y = ax^2 + bx + c
+  y = (a * x * x) + (b * x) + c;
+  //  m = x+y+z / 3
+  m = (x+y+z) / 3;
+  
+  printf( "y = %d\n", y);
+  printf( "m = %d\n", m);
   
   
   system("PAUSE");	
